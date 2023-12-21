@@ -1,5 +1,7 @@
 # Magic Hat for Secret Santa
 
+![Screenshot of Magic Hat app.](screenshot.png)
+
 ## Initial members
 
 `db.xlsx` used for initial databese creation. \
