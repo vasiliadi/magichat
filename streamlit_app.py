@@ -3,7 +3,7 @@ import random
 import pandas as pd
 from sqlalchemy import text
 
-conn = st.connection("postgresql-neon", type="sql")
+conn = st.connection("postgresql", type="sql")
 
 try:
     pd.read_excel('db.xlsx', sheet_name='gifters').to_sql('gifters', conn.engine, index=False)
