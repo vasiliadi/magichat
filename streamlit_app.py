@@ -3,12 +3,17 @@ import random
 import pandas as pd
 from sqlalchemy import text
 
+# Replace only url in quotes
+google_sheets_url = 'https://docs.google.com/spreadsheets/d/1kws524HbFLr2Q_0_YeNgZ5FubDbUEVLzDNJz5HFK1Gw/edit?usp=sharing'
+
 conn = st.connection("postgresql", type="sql")
+google_sheets_gifters = google_sheets_url.replace('/edit?usp=sharing', '/gviz/tq?tqx=out:csv&sheet=gifters')
+google_sheets_results = google_sheets_url.replace('/edit?usp=sharing', '/gviz/tq?tqx=out:csv&sheet=results')
 
 try:
-    pd.read_excel('db.xlsx', sheet_name='gifters').to_sql('gifters', conn.engine, index=False)
-    pd.read_excel('db.xlsx', sheet_name='gifters').to_sql('resiviers', conn.engine, index=False)
-    pd.read_excel('db.xlsx', sheet_name='results').to_sql('results', conn.engine, index=False)
+    pd.read_csv(google_sheets_gifters).to_sql('gifters', conn.engine, index=False)
+    pd.read_csv(google_sheets_gifters).to_sql('resiviers', conn.engine, index=False)
+    pd.read_csv(google_sheets_results).to_sql('results', conn.engine, index=False)
 except ValueError:
     pass
 
