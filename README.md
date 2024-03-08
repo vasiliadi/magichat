@@ -38,6 +38,8 @@ password = "xxxxxx"
 
 where `host`, `port`, `database`, `username` and `password` replace with yours.
 
+For local testing modify `secrets.toml` in `.streamlit` folder with your data.
+
 Free PostgreSQL nodes avalible on
 [neon.tech](https://neon.tech/) or [elephantsql.com](https://www.elephantsql.com/) or wherever you want.
 
@@ -46,4 +48,4 @@ Free PostgreSQL nodes avalible on
 To deploy you need [streamlit.io](https://streamlit.io/) account and your own [github.com](https://github.com/) repository. 
 1. Fork it 
 2. Replace `google_sheets_url` in `streamlit_app.py`
-3. Deploy your app on [streamlit.io](https://streamlit.io/)  and [add your secrets](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app/secrets-management#edit-your-apps-secrets).
+3. Deploy your app on [streamlit.io](https://streamlit.io/)  and [add your secrets](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app/secrets-management#edit-your-apps-secrets)
