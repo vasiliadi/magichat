@@ -43,6 +43,8 @@ For local testing modify `secrets.toml` in `.streamlit` folder with your data.
 Free PostgreSQL nodes avalible on
 [neon.tech](https://neon.tech/) or [elephantsql.com](https://www.elephantsql.com/) or wherever you want.
 
+Also, you can check [Clever Cloud](https://www.clever-cloud.com/), [Aiven](https://aiven.io/), [NodeChef](https://www.nodechef.com/), or any other provider for MySQL nodes as well.
+
 ## Deploy
 
 To deploy you need [streamlit.io](https://streamlit.io/) account and your own [github.com](https://github.com/) repository. 
