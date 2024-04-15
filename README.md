@@ -43,7 +43,7 @@ For local testing modify `secrets.toml` in `.streamlit` folder with your data.
 Free PostgreSQL nodes avalible on
 [neon.tech](https://neon.tech/) or [elephantsql.com](https://www.elephantsql.com/) or wherever you want.
 
-Also, you can check [Clever Cloud](https://www.clever-cloud.com/), [Aiven](https://aiven.io/), [NodeChef](https://www.nodechef.com/), or any other provider for MySQL nodes as well.
+Also, you can check for free instance [Clever Cloud](https://www.clever-cloud.com/), [Aiven](https://aiven.io/), [NodeChef](https://www.nodechef.com/), or any popular cloud provider like [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/), [Google Cloud](https://cloud.google.com/), [Oracle Cloud](https://www.oracle.com/cloud/), [IBM Cloud](https://www.ibm.com/cloud), [DigitalOcean](https://www.digitalocean.com/), [OVHcloud](https://ovhcloud.com/), or another provider for MySQL/PostgreSQL nodes as well.
 
 ## Deploy
 
