@@ -1,5 +1,7 @@
 # Magic Hat for Secret Santa
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+
 ![Screenshot of Magic Hat app.](screenshot.png)
 
 ## Initial members
