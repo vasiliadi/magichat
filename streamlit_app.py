@@ -1,6 +1,7 @@
-import streamlit as st
 import random
+
 import pandas as pd
+import streamlit as st
 from sqlalchemy import text
 
 # Replace only url in quotes
@@ -35,7 +36,7 @@ name = st.selectbox(
     label_visibility="collapsed",
 )
 
-if name != None:
+if name is not None:
     st.text(f"Hi {name} 👋 ")
     st.text("Press the button to know who you are gifting to:")
     if st.button("Hocus Pocus 🪄", type="primary"):
