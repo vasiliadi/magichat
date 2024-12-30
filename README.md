@@ -1,6 +1,6 @@
 # Magic Hat for Secret Santa
 
-![Python](https://img.shields.io/badge/Python-3.11_|_3.12-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)
 
 ![Screenshot of Magic Hat app.](screenshot.png)
