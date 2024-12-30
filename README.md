@@ -27,7 +27,7 @@ If you want to gift family member or all participants from different families ju
 2. Modify it with your data
 3. Add it to the [streamlit.io secrets section](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app/secrets-management#edit-your-apps-secrets)
 
-Example of config:
+Example of config (secrets.toml in .streamlit folder):
 
 ```text
 [connections.postgresql]
