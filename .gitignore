@@ -161,7 +161,7 @@ cython_debug/
 
 # Streamlit
 .streamlit/secrets.toml
-/src/.streamlit/secrets.toml
+src/.streamlit/secrets.toml
 
 # Codespace
 .devcontainer/
